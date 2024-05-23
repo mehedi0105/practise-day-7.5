@@ -1,0 +1,38 @@
+* {
+  background-color: #a28089;
+}
+.input-box,
+.search-btn {
+  box-shadow: 4px 4px 8px white;
+  border: none;
+}
+.product-page {
+  flex-wrap: wrap;
+}
+.product-box {
+  width: 300px;
+  box-shadow: 4px 4px 8px gray;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: white;
+}
+.product-img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.singleProduct {
+  width: 400px;
+  box-shadow: 4px 4px 8px gray;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: white;
+  margin: auto;
+  margin-top: 60px;
+}
+.single-description li,
+.single-description {
+  background-color: white;
+}
+.input-box {
+  background-color: rgb(187, 190, 192);
+}

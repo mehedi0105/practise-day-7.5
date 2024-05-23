@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Link Css File-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Link Bootsrap-->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <title>Practise Project</title>
+  </head>
+  <body>
+    <header>
+      <!--veaw Single product(Start)-->
+      <div class="viaw-single-product container" id="viaw-single-product"></div>
+      <!--veaw Single product(End)-->
+      <!-- Search bar(Start) -->
+      <div class="text-part text-center mt-5">
+        <!-- <form action=""> -->
+        <input
+          type="text"
+          placeholder="find your favorite food"
+          class="p-3 w-50 input-box"
+          id="input-box"
+        />
+        <button
+          id="search-btn"
+          class="p-3 search-btn btn btn-primary fs-5 fw-bold"
+          onclick="search_data();"
+        >
+          Search
+        </button>
+        <!-- </form> -->
+      </div>
+      <!--Search bar(End)-->
+    </header>
+    <main>
+      <!--Product Page(Start)-->
+      <section class="container">
+        <div
+          id="product-page"
+          class="product-page d-flex justify-content-between align-items-center"
+        ></div>
+      </section>
+      <!--Product Page(End)-->
+    </main>
+    <footer></footer>
+
+    <!--Link javaScripts File-->
+    <script src="app.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+  </body>
+</html>
